@@ -25,9 +25,6 @@ public final class ShadowMotdPlugin extends JavaPlugin implements Listener {
         }
 
         getServer().getPluginManager().registerEvents(this, this);
-
-        String out = PlaceholderAPI.setPlaceholders(null, "%server_uptime%");
-        getLogger().info("|" + out + "|");
     }
 
     @NotNull
