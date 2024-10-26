@@ -1,0 +1,10 @@
+
+# motd 3行目以降に挿入される値
+values:
+  - input: "%server_has_whitelist%"
+    pattern: "^yes$"
+    output-true: "§cWHITELIST-ON"
+    output-false: "§aWHITELIST-OFF"
+
+# 値同士を繋ぐ文字列
+values-join: "\0"

@@ -1,0 +1,8 @@
+name: ShadowMotd
+version: '${version}'
+main: com.gmail.necnionch.myplugin.shadowmotd.bukkit.ShadowMotdPlugin
+api-version: '1.13'
+author: Necnion8
+
+depend:
+  - PlaceholderAPI
